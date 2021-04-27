@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{cde9235e-e5a5-4b63-a26a-01362dee8b23}">
+        <property name="assetPath">
+            <value>Freeze Serum [2019-03-16 161429].wav</value>
+        </property>
+        <property name="isStreaming">
+            <value>true</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>21.100000000000001</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{027d04aa-e21f-4867-b83b-a9eefafae39c}</destination>
+        </relationship>
+    </object>
+</objects>

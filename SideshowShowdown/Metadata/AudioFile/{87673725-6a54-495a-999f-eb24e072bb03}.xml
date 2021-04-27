@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{87673725-6a54-495a-999f-eb24e072bb03}">
+        <property name="assetPath">
+            <value>Family Mumbles/Mum/Mum Clip 3 [2019-04-02 120407].wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>2.3999999999999999</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{027d04aa-e21f-4867-b83b-a9eefafae39c}</destination>
+        </relationship>
+    </object>
+</objects>

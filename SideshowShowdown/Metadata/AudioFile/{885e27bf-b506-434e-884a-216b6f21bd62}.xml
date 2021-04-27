@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{885e27bf-b506-434e-884a-216b6f21bd62}">
+        <property name="assetPath">
+            <value>Upton O'Goode 2 [2019-04-08 143536].wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>5.0791458333333335</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{027d04aa-e21f-4867-b83b-a9eefafae39c}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{e4e86615-0fd1-43ea-b4ef-a56918ed96bb}">
+        <property name="assetPath">
+            <value>Golden Teddy Unlock [2019-04-02 002134].wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>44.0999985</value>
+        </property>
+        <property name="channelCount">
+            <value>2</value>
+        </property>
+        <property name="length">
+            <value>3.6223129251700681</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{027d04aa-e21f-4867-b83b-a9eefafae39c}</destination>
+        </relationship>
+    </object>
+</objects>

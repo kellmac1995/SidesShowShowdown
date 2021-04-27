@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{afb18d60-fd98-4bff-9beb-ccbd5069df02}">
+        <property name="name">
+            <value>GT OFF-ON</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{63a95a8b-b14f-421f-9ba0-13034b2ac0a2}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{63a95a8b-b14f-421f-9ba0-13034b2ac0a2}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

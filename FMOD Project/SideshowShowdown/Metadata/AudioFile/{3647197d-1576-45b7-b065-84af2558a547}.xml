@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="AudioFile" id="{3647197d-1576-45b7-b065-84af2558a547}">
+        <property name="assetPath">
+            <value>Dad [2019-04-08 150606].wav</value>
+        </property>
+        <property name="frequencyInKHz">
+            <value>48</value>
+        </property>
+        <property name="channelCount">
+            <value>1</value>
+        </property>
+        <property name="length">
+            <value>0.9936666666666667</value>
+        </property>
+        <relationship name="masterAssetFolder">
+            <destination>{027d04aa-e21f-4867-b83b-a9eefafae39c}</destination>
+        </relationship>
+    </object>
+</objects>

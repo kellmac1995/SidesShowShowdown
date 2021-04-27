@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52fcc2139b2a07b4a9cec55c65b52fcc, type: 3}
+  m_Name: Dadjoke 1
+  m_EditorClassIdentifier: 
+  animStartName: PunActivated
+  animEndName: 
+  textboxCaptions:
+  - "I am terrified of elevators. I\u2019m going to start taking steps to avoid them."
+  - "Someone\u2019s been stealing patrol dogs. Police say they have several leads."
+  - "What do you call a fish with no eyes? \u2013 A fshhhh."
+  - Had a weird dream last night that I was a muffler. I woke up exhausted.
+  - "A snake walks into a bar. The bartender says \u201CHow did you do that?\u201D"
+  - "Did you hear about the kidnapping at school? It\u2019s fine, he woke up."
+  - "Why don\u2019t you see elephants hiding in trees? -Because they\u2019re really
+    good at it."
+  - "What\u2019s white and can\u2019t climb trees? A refrigerator."
+  - "5/4 of people won\u2019t admit they\u2019re bad with fractions."
+  actionButton: 0
+  waitTime: 0
+  overrideAll: 0

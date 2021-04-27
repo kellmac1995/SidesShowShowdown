@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{84f6820a-72e9-426b-88ae-ed6b084a10ad}">
+        <property name="name">
+            <value>Comic Strip Start</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{6a93ad9b-c6e7-4f09-8f58-b98aa0793306}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{6a93ad9b-c6e7-4f09-8f58-b98aa0793306}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

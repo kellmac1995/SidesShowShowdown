@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{05054b5d-8fdc-416a-a4bd-5c98148a9362}">
+        <property name="name">
+            <value>Weapon Loop Off/On</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{30b1ac53-730b-45a2-b750-37d233fd7c38}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{30b1ac53-730b-45a2-b750-37d233fd7c38}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

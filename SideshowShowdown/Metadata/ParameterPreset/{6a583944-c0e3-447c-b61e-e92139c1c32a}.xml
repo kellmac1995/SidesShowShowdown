@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{6a583944-c0e3-447c-b61e-e92139c1c32a}">
+        <property name="name">
+            <value>Pad Mod</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{cb71d2d5-a4d2-4bdc-98ee-bc28838bc842}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{cb71d2d5-a4d2-4bdc-98ee-bc28838bc842}">
+        <property name="maximum">
+            <value>100</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

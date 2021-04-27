@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{dffefe6e-de2c-498b-bd7a-0cb5bd8d3c80}">
+        <property name="name">
+            <value>SuperSoaker</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{4ff29013-3ba6-40cd-8531-f431eb37acfe}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{e9fbafcb-db20-4091-8146-c53a512f3ca3}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{21c0f80a-becf-43c0-a0fe-eda354c2f354}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{4ff29013-3ba6-40cd-8531-f431eb37acfe}">
+        <relationship name="effects">
+            <destination>{33da2fa5-d61b-45cf-8db0-83f43eb7151d}</destination>
+            <destination>{15b3ecb0-dd15-410b-ab18-2bf1bd7abc50}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{e9fbafcb-db20-4091-8146-c53a512f3ca3}"/>
+    <object class="MixerBusFader" id="{33da2fa5-d61b-45cf-8db0-83f43eb7151d}"/>
+    <object class="Sidechain" id="{15b3ecb0-dd15-410b-ab18-2bf1bd7abc50}"/>
+</objects>

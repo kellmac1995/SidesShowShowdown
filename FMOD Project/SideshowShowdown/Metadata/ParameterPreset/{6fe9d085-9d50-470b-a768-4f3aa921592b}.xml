@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{6fe9d085-9d50-470b-a768-4f3aa921592b}">
+        <property name="name">
+            <value>Splash Screen Loop</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{b5ad1a17-718e-4659-a68f-db4859cf1ac6}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{b5ad1a17-718e-4659-a68f-db4859cf1ac6}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

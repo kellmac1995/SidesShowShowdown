@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{7a17d235-1038-43cb-8d6a-32e70428e2e1}">
+        <property name="name">
+            <value>Family Sounds</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{afdaa1e9-b3c2-4534-8df7-298f23db3d9f}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{5a005048-04ea-4d41-95be-5721df491a12}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{322c0b58-5ed6-4627-a37a-a5a5ff32f86b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{afdaa1e9-b3c2-4534-8df7-298f23db3d9f}">
+        <relationship name="effects">
+            <destination>{98c991c3-ffde-4b7e-8ca0-cb9bb4401254}</destination>
+            <destination>{01952fa6-27bf-4cdf-a480-88248123eb5a}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{5a005048-04ea-4d41-95be-5721df491a12}"/>
+    <object class="MixerBusFader" id="{98c991c3-ffde-4b7e-8ca0-cb9bb4401254}"/>
+    <object class="Sidechain" id="{01952fa6-27bf-4cdf-a480-88248123eb5a}">
+        <relationship name="targets">
+            <destination>{9b418f51-ad69-4c24-a393-cf5fd6a07475}</destination>
+        </relationship>
+    </object>
+</objects>

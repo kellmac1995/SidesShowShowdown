@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &34180872899122965
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 34180872899123048}
+  - component: {fileID: 34180872899122966}
+  m_Layer: 0
+  m_Name: SceneLoader_Arena
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &34180872899123048
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34180872899122965}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &34180872899122966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 34180872899122965}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 163d5c1e36aacb748be2eb5648764b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveManager: {fileID: 0}
+  uIController: {fileID: 0}
+  controllerViber: {fileID: 0}
+  playerDamagedFlash: {fileID: 0}
+  heeliesVignette: {fileID: 0}
+  restartButton: {fileID: 0}
+  shopDoor: {fileID: 0}
+  arenaCover: {fileID: 0}
+  arenaObjects: {fileID: 0}
+  endGameObjects: {fileID: 0}
+  despawnPoof: {fileID: 1359677586632970, guid: 83dcae27469fea44b9d1820eb3e32a9a,
+    type: 3}
+  timeUpText: {fileID: 0}
+  pauseMenuPanel: {fileID: 0}
+  flashscreenPanel: {fileID: 0}
+  volumePanel: {fileID: 0}
+  timerText: {fileID: 0}
+  endGameText: {fileID: 0}
+  scoreUI: {fileID: 0}
+  totalScoreUI: {fileID: 0}
+  fireText: {fileID: 0}
+  aimText: {fileID: 0}
+  characterAnimator: {fileID: 0}
+  timerFrame: {fileID: 0}
+  camAnimator: {fileID: 0}
+  heeliesAnimator: {fileID: 0}
+  countDown: 60
+  startCountDown: 3
+  finalCountdown: 5
+  buildUpCountdown: 15
+  shieldPickup: {fileID: 1860639812262836, guid: a5fe4db712cc9af46862342eec1fbba6,
+    type: 3}
+  arenaDespawnTimeMin: 0.1
+  arenaDespawnTimeMax: 1
+  enemyDespawnTimeMin: 0.1
+  enemyDespawnTimeMax: 0.5

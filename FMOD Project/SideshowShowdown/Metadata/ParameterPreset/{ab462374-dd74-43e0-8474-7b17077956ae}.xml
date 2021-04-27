@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{ab462374-dd74-43e0-8474-7b17077956ae}">
+        <property name="name">
+            <value>BB - Enemy Contact</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{6422d055-3a70-494b-8ae4-0e2c58e2c10d}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{6422d055-3a70-494b-8ae4-0e2c58e2c10d}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

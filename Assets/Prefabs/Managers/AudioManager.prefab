@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6138665165988190702
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6138665165988190691}
+  - component: {fileID: 6138665165988190688}
+  - component: {fileID: 6483635555112821318}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6138665165988190691
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6138665165988190702}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 7.7860365, y: 8.51936, z: -0.94756466}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6138665165988190688
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6138665165988190702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cae64e12aef18ae4ea4aac1a66296be7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPersistent: 0
+  playerSource: {fileID: 0}
+  poolFailShot: {fileID: 0}
+  backgroundTrack: event:/Music/Carnial Riddumb (On Timer)
+  playerDeath: event:/FX/Player Death
+  playerDamaged: event:/FX/Player Damaged
+  playerAttack: event:/FX/Player Attack
+  hammerHit: event:/Weapon Sounds/Hammer Sound/Hammer Hit
+  clownPop: event:/Weapon Sounds/Clown Gun/Clown Gun
+  babyRattle: event;/Family Actions/Baby Rattle
+  dadJoke: event:/Family Actions/Dad Joke
+  mothersGaze: event;/Family Actions/Mother's Gaze-r
+  dadJokeTimer: event;/Family Actions/Reset Timers/BR - Reset Timer 1
+  enemyAttck: event:/Enemy Soundss/Duck Attack
+  enemyDeath: event:/Enemy Sounds/Duck - Death
+  elephantCharge: event:/Enemy Sounds/Elephant - Charge
+  elephantDeath: event:/Enemy Sounds/Elephant - Death
+  corkPop: event:/FX/Barrel Pop
+  doorOpen: event:/FX/Door Open
+  springs: event:/FX/Springs
+  barrelExplode: event;/FX/Barrel Explode
+  cheering: event:/FX/Cheering
+  bubbleShield: event:/Weapon Sounds/Bubble Shield/BubbleShield
+  bubblePop: event:/Weapon Sounds/Bubble Shield/Bubble Pop
+--- !u!114 &6483635555112821318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6138665165988190702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: 0

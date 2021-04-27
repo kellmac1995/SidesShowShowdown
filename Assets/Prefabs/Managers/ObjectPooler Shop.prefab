@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &9003458300951337393
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 524875357220222617, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_Name
+      value: ObjectPooler
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222599, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[0].ObjectToPool
+      value: 
+      objectReference: {fileID: 1754450140826150, guid: 089d35dda760c254b8fda5984122f579,
+        type: 3}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[0].PoolName
+      value: ClownBullets
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[0].AmountToPool
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[1].ObjectToPool
+      value: 
+      objectReference: {fileID: 4806795570796896508, guid: 9df3a99a301004d47801a1cdeaac0a2e,
+        type: 3}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[1].PoolName
+      value: Beetles
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[1].AmountToPool
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[2].ObjectToPool
+      value: 
+      objectReference: {fileID: 5946827665512734494, guid: e1178d1c1a867f24d80dc75756cdacdd,
+        type: 3}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[2].PoolName
+      value: DragonBullets
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[3].ObjectToPool
+      value: 
+      objectReference: {fileID: 1359677586632970, guid: 83dcae27469fea44b9d1820eb3e32a9a,
+        type: 3}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[3].PoolName
+      value: SmokeParticles
+      objectReference: {fileID: 0}
+    - target: {fileID: 524875357220222598, guid: 660d424fe7f50e74e827398ed2fe951e,
+        type: 3}
+      propertyPath: Pools.Array.data[3].AmountToPool
+      value: 50
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 660d424fe7f50e74e827398ed2fe951e, type: 3}

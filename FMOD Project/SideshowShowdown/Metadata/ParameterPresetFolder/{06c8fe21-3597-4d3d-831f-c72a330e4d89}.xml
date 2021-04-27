@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPresetFolder" id="{06c8fe21-3597-4d3d-831f-c72a330e4d89}">
+        <property name="name">
+            <value>Weapon Loop Off</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+    </object>
+</objects>

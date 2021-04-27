@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{1797a2c1-9df4-4f2a-968f-e6bbf0ab239d}">
+        <property name="name">
+            <value>Final Alarm OFF - ON</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{3ed74bd7-fd57-49fc-b2a0-1db98c9c8d9e}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{3ed74bd7-fd57-49fc-b2a0-1db98c9c8d9e}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

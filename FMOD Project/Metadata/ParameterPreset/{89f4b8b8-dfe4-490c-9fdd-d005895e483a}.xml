@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{89f4b8b8-dfe4-490c-9fdd-d005895e483a}">
+        <property name="name">
+            <value>Pause Screen ON-OFF</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{b88cda1a-0c60-40a7-8f91-10a2081f801e}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{b88cda1a-0c60-40a7-8f91-10a2081f801e}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

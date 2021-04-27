@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{77beea81-d094-4469-afdf-f66e86265356}">
+        <property name="name">
+            <value>Bass Filter</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{b4a71c8a-6046-439b-a39a-d8455371cbe3}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{b4a71c8a-6046-439b-a39a-d8455371cbe3}">
+        <property name="maximum">
+            <value>100</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

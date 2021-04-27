@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &524875357220222617
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 524875357220222599}
+  - component: {fileID: 524875357220222598}
+  m_Layer: 0
+  m_Name: ObjectPooler
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &524875357220222599
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524875357220222617}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &524875357220222598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 524875357220222617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8a69d851fc902d4ebea681b54b466f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RootPoolName: Pooled Objects
+  Pools:
+  - ObjectToPool: {fileID: 1075051619003192, guid: 6a7fa59da0b1f64479a42a45c767089c,
+      type: 3}
+    PoolName: Ducks
+    AmountToPool: 50
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 7324005980869724733, guid: 84d4a4b2de2e18747bcf7910982cfcd0,
+      type: 3}
+    PoolName: Elephants
+    AmountToPool: 12
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 1754450140826150, guid: 089d35dda760c254b8fda5984122f579,
+      type: 3}
+    PoolName: ClownBullets
+    AmountToPool: 20
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 4806795570796896508, guid: 9df3a99a301004d47801a1cdeaac0a2e,
+      type: 3}
+    PoolName: Beetles
+    AmountToPool: 20
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 5946827665512734494, guid: e1178d1c1a867f24d80dc75756cdacdd,
+      type: 3}
+    PoolName: DragonBullets
+    AmountToPool: 20
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 8661871546796020507, guid: d5b08753fd39cdb45946f8cc120777ff,
+      type: 3}
+    PoolName: RangedBullets
+    AmountToPool: 4
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 1819676693686124, guid: 300bfc37afb8b0440ab0f1161b6b1a26,
+      type: 3}
+    PoolName: DeathParticles
+    AmountToPool: 20
+    ShouldExpand: 1
+  - ObjectToPool: {fileID: 1359677586632970, guid: 83dcae27469fea44b9d1820eb3e32a9a,
+      type: 3}
+    PoolName: SmokeParticles
+    AmountToPool: 130
+    ShouldExpand: 1

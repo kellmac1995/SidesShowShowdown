@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{d33f862b-5026-4cce-a78a-f26cc0389cc3}">
+        <property name="name">
+            <value>ClownGun</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{d08f16fc-cdba-426b-b356-14cbcf5e8ca3}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{8926da98-368e-49b7-aa2c-d0286082fce5}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{322c0b58-5ed6-4627-a37a-a5a5ff32f86b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{d08f16fc-cdba-426b-b356-14cbcf5e8ca3}">
+        <relationship name="effects">
+            <destination>{c930cc29-fc61-4afb-bb3b-69430943c10d}</destination>
+            <destination>{53b17dde-67fc-47d0-9e24-c6d77ad5993e}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{8926da98-368e-49b7-aa2c-d0286082fce5}"/>
+    <object class="MixerBusFader" id="{c930cc29-fc61-4afb-bb3b-69430943c10d}"/>
+    <object class="Sidechain" id="{53b17dde-67fc-47d0-9e24-c6d77ad5993e}">
+        <relationship name="targets">
+            <destination>{d33a52ce-9906-4829-91af-657dbf31ef0f}</destination>
+        </relationship>
+    </object>
+</objects>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="EventFolder" id="{7cc1ff84-aee2-4f66-8aab-f43f14b9bb04}">
+        <property name="name">
+            <value>Family Reset Timers</value>
+        </property>
+        <relationship name="folder">
+            <destination>{33a178d3-3453-4b8c-ad2f-cdbda3446860}</destination>
+        </relationship>
+    </object>
+</objects>

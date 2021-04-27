@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{1fd91776-a66e-45ee-b01e-76a273bb2e06}">
+        <property name="name">
+            <value>Drum Filter</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{c7ebf937-1027-41c7-b345-898d5081af0d}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{c7ebf937-1027-41c7-b345-898d5081af0d}">
+        <property name="maximum">
+            <value>100</value>
+        </property>
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="MixerGroup" id="{26bd83e0-25e7-42b7-b9ea-69951483e291}">
+        <property name="volume">
+            <value>-3</value>
+        </property>
+        <property name="name">
+            <value>Music</value>
+        </property>
+        <relationship name="effectChain">
+            <destination>{56a8ffef-fbf9-402b-9b4c-eb1ad529948d}</destination>
+        </relationship>
+        <relationship name="panner">
+            <destination>{9c493b9d-ee6e-4533-8646-a4c3f1b08b82}</destination>
+        </relationship>
+        <relationship name="output">
+            <destination>{322c0b58-5ed6-4627-a37a-a5a5ff32f86b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusEffectChain" id="{56a8ffef-fbf9-402b-9b4c-eb1ad529948d}">
+        <relationship name="effects">
+            <destination>{6d75f1a3-b1c1-4dc5-b7ac-7c2702c5d03a}</destination>
+            <destination>{d33a52ce-9906-4829-91af-657dbf31ef0f}</destination>
+            <destination>{d0a7b1b1-ded0-4a10-9ed5-138ee5ccef0b}</destination>
+        </relationship>
+    </object>
+    <object class="MixerBusPanner" id="{9c493b9d-ee6e-4533-8646-a4c3f1b08b82}"/>
+    <object class="MixerBusFader" id="{6d75f1a3-b1c1-4dc5-b7ac-7c2702c5d03a}"/>
+    <object class="CompressorEffect" id="{d33a52ce-9906-4829-91af-657dbf31ef0f}">
+        <property name="threshold">
+            <value>-18</value>
+        </property>
+        <property name="ratio">
+            <value>3.99999976</value>
+        </property>
+        <property name="attackTime">
+            <value>0.100000001</value>
+        </property>
+        <property name="releaseTime">
+            <value>26</value>
+        </property>
+        <property name="sidechainEnabled">
+            <value>true</value>
+        </property>
+    </object>
+    <object class="CompressorEffect" id="{d0a7b1b1-ded0-4a10-9ed5-138ee5ccef0b}">
+        <property name="threshold">
+            <value>-18</value>
+        </property>
+        <property name="ratio">
+            <value>3.99999976</value>
+        </property>
+        <property name="attackTime">
+            <value>0.100000001</value>
+        </property>
+        <property name="releaseTime">
+            <value>98</value>
+        </property>
+        <property name="sidechainEnabled">
+            <value>true</value>
+        </property>
+    </object>
+</objects>

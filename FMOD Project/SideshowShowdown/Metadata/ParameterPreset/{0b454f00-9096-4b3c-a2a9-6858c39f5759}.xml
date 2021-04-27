@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.01.10.00">
+    <object class="ParameterPreset" id="{0b454f00-9096-4b3c-a2a9-6858c39f5759}">
+        <property name="name">
+            <value>Applause Filter</value>
+        </property>
+        <relationship name="folder">
+            <destination>{9de48403-b35d-49db-8001-913fa9616bdc}</destination>
+        </relationship>
+        <relationship name="parameter">
+            <destination>{214e938e-1e63-49c7-9ab7-81edd0b7cf20}</destination>
+        </relationship>
+    </object>
+    <object class="GameParameter" id="{214e938e-1e63-49c7-9ab7-81edd0b7cf20}">
+        <property name="initialValue">
+            <value>0</value>
+        </property>
+    </object>
+</objects>

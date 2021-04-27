@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Pickup
+  - Enemy
+  - PlayerBullet
+  - Teleporter
+  - Wall
+  - Bullet
+  - Hand
+  - Water
+  - Beetle
+  - BubblegumShield
+  - ShieldPickup
+  - BreakingBarrel
+  - Target
+  - ExplodingBarrel
+  - BeetleTrigger
+  - DragonTrigger
+  - ClownTrigger
+  - EnemyCharge
+  - StreamBarrel
+  - Entrance
+  - Exit
+  - ShopEntrance
+  - RestartButton
+  - ShopButton
+  - EnemyBullet
+  - MimeEnemy
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - Player
+  - EnemyDucks
+  - PlayerBullets
+  - EnemyBullets
+  - Obstacle
+  - EnemyElephants
+  - EnemyMime
+  - Bubblegum
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Background
+    uniqueID: 3575449459
+    locked: 0
+  - name: Foreground
+    uniqueID: 354457353
+    locked: 0
+  - name: Reticles
+    uniqueID: 929863137
+    locked: 0
+  - name: Player
+    uniqueID: 1424936555
+    locked: 0
+  - name: Projectiles
+    uniqueID: 2239837519
+    locked: 0
